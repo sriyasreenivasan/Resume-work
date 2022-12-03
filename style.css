@@ -1,0 +1,55 @@
+.body{
+    background: rgb(126, 88, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+
+}
+.parent{
+    position: relative;
+    width: 100%;
+    
+    
+    max-width: 1000px;
+    min-height: 250px;
+    
+
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(72, 163, 199);
+}
+.parent .side_left{
+    position: relative;
+    background:rgb(43, 116, 145);
+    padding: 40px;
+    
+}
+.profileText .imgBx img{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+/* .profileText h2{
+    
+} */
+.parent .side_right{
+    position: relative;
+    background: white;
+    padding: 40px;
+
+}
+img{
+    width: 150px;
+  height: 150px;
+}
+
+progress{
+    accent-color:rgb(110, 191, 218);
+}
